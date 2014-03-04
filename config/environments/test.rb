@@ -33,4 +33,8 @@ Etcdemo::Application.configure do
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
+
+  # required for devise gem
+  config.action_mailer.default_url_options = { :host => 'etcdemo20140301.herokuapp.com' }
+
 end
