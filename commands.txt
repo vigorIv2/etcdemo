@@ -1,0 +1,239 @@
+    1  jot - 1 15
+    2  jot - 1 1000000
+    3  ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+    4  brew doctor
+    5  brew -v
+    6  brew install git
+    7  git --version
+    8  git config --global user.name "Igor Vasilchikov"
+    9  git config --global user.email "vasilchikov@gmail.com"
+   10  git config -l
+   11  \curl -L https://get.rvm.io | bash -s stable
+   12  source ~/.rvm/scripts/rvm
+   13  touch .bash_profile
+   14  open .bash_profile
+   15  vi
+   16  vi .bash_profile 
+   17  rvm install 2.0.0
+   18  ruby --v
+   19  ruby --version
+   20  rvm requirements
+   21  brew install autoconf automake libtool pkg-config apple-gcc42 libyaml readline libxml2 libxslt libksba openssl sqlite imagemagick
+   22  gem install rails --no-ri --no-rdoc
+   23  rails --version
+   24  brew install apple-gcc42
+   25  sudo xcodebuild -license
+   26  sudo port upgrade outdated
+   27  brew install port
+   28  sudo port upgrade outdated
+   29  rvm reinstall 2.0.0
+   30  cd ~/Desktop
+   31  ruby --hwlp
+   32  ruby --help
+   33  rails --help
+   34  pwd
+   35  rails new sample_app
+   36  cd ~/Desktop/sample_app
+   37  rails server
+   38  df -h
+   39  ping 192.168.0.69
+   40  ls -l
+   41  ls -lA
+   42  cd ..
+   43  ls -lA
+   44  cd ..
+   45  ls -l
+   46  ls -lA
+   47  ls -lA
+   48  ls -lA
+   49  ls -lA
+   50  ls -la
+   51  ls -la VirtualBox\ VMs/
+   52  cp -r ./Desktop/FromLinux/WinXP-usres ./VirtualBox\ VMs/
+   53  cp -r ./Desktop/cloudera-quickstart-vm-4.4.0-1-virtualbox ./VirtualBox\ VMs/
+   54  ls -l ./VirtualBox\ VMs/
+   55  rm -rf ./VirtualBox\ VMs/cloudera-quickstart-vm-4.4.0-1-virtualbox
+   56  df -h
+   57  cp -r ./Desktop/cloudera-quickstart-vm-4.4.0-1-virtualbox/ ./VirtualBox\ VMs/
+   58  irb
+   59  ruby --help
+   60  ls -l Downloads/
+   61  rm Downloads/ubuntu-13.10-desktop-amd64.iso 
+   62  mv Downloads/ubuntu-13.10-desktop-amd64\ \(1\).iso Downloads/ubuntu-13.10-desktop-amd64.iso
+   63  ls -l Downloads/
+   64  scp ./Downloads/ubuntu-13.10-desktop-amd64.iso vigor@192.168.0.69:~/
+   65  ls -l ./Downloads/
+   66  scp ./Downloads/Tsv2Qif.sh vigor@192.169.0.55:~/ 
+   67  scp ./Downloads/Tsv2Qif.sh vigor@192.169.0.69:~/ 
+   68  ping 192.168.0.69
+   69  ping 192.168.0.55
+   70  scp ./Downloads/Tsv2Qif.sh vigor@192.169.0.69:~/ 
+   71  scp ./Downloads/Tsv2Qif.sh vigor@192.169.0.55:~/ 
+   72  telnet 192.168.0.55 22
+   73  ssh -v -v -v vigor@192.169.0.55:~/ 
+   74  ssh -v -v -v vigor@192.169.0.55
+   75  ssh -v -v -v vigor@192.169.0.55
+   76  ifconfig
+   77  scp ./Downloads/Tsv2Qif.sh vigor@192.169.0.69:~/ 
+   78  ifconfig
+   79  ifconfig
+   80  ifconfig
+   81  ifconfig
+   82  ifconfig
+   83  ifconfig
+   84  ifconfig
+   85  ifconfig
+   86  ping google.com
+   87  cd etcdemo/
+   88  grep -r secret_key *
+   89  vi config/initializers/secret_token.rb 
+   90  vi config/initializers/devise.rb 
+   91  git status
+   92  git add .
+   93  git commit -m "added secret key"
+   94  git push
+   95  rails generate migration AddNameToUsers name:string
+   96  rake db:migrate
+   97  vi ./app/controllers/application_controller.rb 
+   98  vi ./app/views/devise/registrations/new.html.erb 
+   99  vi ./app/controllers/application_controller.rb 
+  100  vi ./app/views/devise/registrations/new.html.erb 
+  101  vi ./app/views/devise/registrations/edit.html.erb 
+  102  git status
+  103  git add .
+  104  git commit -m "added name field"
+  105  git push
+  106  vi ./app/models/user.rb 
+  107  vi ./app/models/user.rb 
+  108  vi ./app/models/listing.rb 
+  109  vi ./app/models/listing.rb 
+  110  vi ./app/views/listings/_form.html.erb 
+  111  find . -iname listing.rbn
+  112  find . -iname listing.rb
+  113  vi ./app/models/listing.rb 
+  114  rails console
+  115  git status
+  116  git add .
+  117  git commit -m "added validation"
+  118  git push
+  119  git push heroku master
+  120  heroku run rails console
+  121  herokuvi ./app/controllers/listings_controller.rb 
+  122  vi ./app/controllers/listings_controller.rb 
+  123  ls -l ./app/models/
+  124  ls -lA ./app/models/
+  125  git pull
+  126  vi ./config/database.yml 
+  127  rails generate migrations AddUserIdToListings user_id:integer
+  128  rails generate migration AddUserIdToListings user_id:integer
+  129  rake db:migrate
+  130  pwd
+  131  vi ./app/assets/stylesheets/custo.css.scss 
+  132  vi ./app/assets/stylesheets/custo.css.scss 
+  133  vi ./app/views/listings/index.html.erb 
+  134  vi ./app/assets/stylesheets/custo.css.scss 
+  135  vi ./app/assets/stylesheets/custo.css.scss 
+  136  rm ./app/assets/stylesheets/.custo.css.scss.swp 
+  137  vi ./app/assets/stylesheets/custo.css.scss 
+  138  git status
+  139  git add .
+  140  git commit -m "fixed styles in banner"
+  141  git push
+  142  git push heroku master
+  143  heroku open
+  144  vi ./app/assets/stylesheets/custo.css.scss 
+  145  vi ./app/assets/stylesheets/custo.css.scss 
+  146  git status
+  147  git add .
+  148  git commit -m "url for image banner"
+  149  git push
+  150  git push heroku master
+  151  heroku opn
+  152  heroku open
+  153  rails generate scaffold Order address:string, city:string, state:string
+  154  rake db:migrate
+  155  vi /Users/vigor/etcdemo/db/migrate/20140312152636_create_orders.rb
+  156  rake db:migrate
+  157  vi /Users/vigor/etcdemo/db/migrate/20140312152636_create_orders.rb
+  158  rake db:migrate
+  159  cd etcdemo/
+  160  rails s
+  161  cd etcdemo/
+  162  vi ./app/models/listing.rb 
+  163  vi ./app/models/user.rb 
+  164  vi ./app/models/order.rb 
+  165  vi ./app/models/order.rb 
+  166  vi ./app/models/listing.rb 
+  167  rails generate migration AddListingIdToOrders listing_id:integer
+  168  rake db:migrate
+  169  vi ./app/models/order.rb 
+  170  vi ./app/models/user.rb 
+  171  vi ./app/models/user.rb 
+  172  rails generate migration AddFieldsToOrders buyer_id:integer seller_id:integer
+  173  rake db:migrate
+  174  vi ./app/controllers/orders_controller.rb 
+  175  vi ./config/routes.rb 
+  176  vi ./app/controllers/orders_controller.rb 
+  177  vi ./app/views/orders/new.html.erb 
+  178  vi ./app/views/orders/_form.html.erb 
+  179  vi ./app/controllers/orders_controller.rb 
+  180  rails console
+  181  vi ./app/views/listings/show.html.erb 
+  182  rake routes
+  183  vi ./app/views/listings/show.html.erb 
+  184  vi ./app/views/orders/_form.html.erb 
+  185  vi ./app/views/listings/_form.html.erb 
+  186  vi ./app/views/orders/_form.html.erb 
+  187  ls -l ./app/assets/stylesheets/
+  188  rm ./app/assets/stylesheets/scaffolds.css.scss 
+  189  vi ./app/views/orders/_form.html.erb 
+  190  git status
+  191  git add .
+  192  git commit -m "added orders and relationships"
+  193  git push
+  194  git push heroku master
+  195  heroku run rake db:migrate
+  196  heroku open
+  197  vi ./config/routes.rb 
+  198  vi ./app/controllers/orders_controller.rb 
+  199  vi ./app/controllers/orders_controller.rb 
+  200  vi ./app/views/listings/seller.html.erb 
+  201  vi ./app/views/orders/sales.html.erb
+  202  vi ./app/views/orders/sales.html.erb
+  203  vi ./app/views/orders/sales.html.erb
+  204  vi ./app/views/orders/sales.html.erb
+  205  vi ./app/views/orders/sales.html.erb
+  206  cp ./app/views/orders/sales.html.erb ./app/views/orders/purchases.html.erb
+  207  vi ./app/views/orders/purchases.html.erb
+  208  vi ./app/views/orders/purchases.html.erb
+  209  vi ./app/views/orders/sales.html.erb 
+  210  vi ./app/views/layouts/_header.html.erb 
+  211  vi ./app/views/layouts/_header.html.erb 
+  212  vi ./app/views/layouts/_header.html.erb 
+  213  vi ./app/controllers/orders_controller.rb 
+  214  rm ./app/views/orders/edit.html.erb 
+  215  rm ./app/views/orders/index.html.erb 
+  216  rm ./app/views/orders/index.json.jbuilder 
+  217  rm ./app/views/orders/show.*
+  218  vi ./config/routes.rb 
+  219  vi ./config/routes.rb 
+  220  git status
+  221  git add .
+  222  git status
+  223  rm :x
+  224  git status
+  225  rm ':x'
+  226  rm \:\x
+  227  ls -l
+  228  ls -lA
+  229  git status
+  230  git add --all
+  231  git status
+  232  git commit -m "Add order history pages"
+  233  git oush
+  234  git push
+  235  git push heroku master
+  236  vi ./Gemfile
+  237  bundle install
+  238  history
+  239  history > commands.txt
